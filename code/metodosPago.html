@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>PAGO</title>
+<link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+
+<header>
+  <H1>JM DOTACIONES</H1>
+
+</header>
+
+<nav>
+    <a href="homepage.html">INICIO</a>
+    <a href="prodcutos.html">PRODUCTOS</a>
+    <a href="clientes.html">CLIENTES</a>
+    <a href="carroCompras.html">CARRO COMPRAS</a>
+    <a href="metodosPago.html">METODOS DE PAGO</a>
+    <a href="datosEnvio.html">DATOS DE ENVIO</a>
+    
+    
+</nav>
+
+
+<form class="actualizar" method="post">
+
+
+
+    <label for="id">ID PAGO</label>
+    <input type="int" id="idpago" name="idpago" required>          
+    <label for="metpago">SELECCIONA METODO DE PAGO</label>
+    <select>
+        <option value="1">Seleciona un elemento de la lista</option>
+        <option value="1">PAGO CONTRA ENTREGA</option>
+        <option value="1">TARJETA DEBITO/ CREDITO</option>
+        <option value="1">EFECTY</option>
+        <option value="1">BONO REGALO</option>
+        <option value="1">CORTESIA</option>
+
+    </select>
+
+    <label for="fecha">Fecha Pago:</label>
+    <input type="date">   
+    
+    <label for="hora">HORA PAGO:</label>
+    <input type="time">
+
+    <input type="submit" value="GENERAR PAGO">
+   
+  
+
+
+
+

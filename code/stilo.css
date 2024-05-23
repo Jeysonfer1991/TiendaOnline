@@ -1,0 +1,136 @@
+
+body { font-family: Arial, sans-serif; }
+header { 
+    background: #333; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; }
+nav { 
+    background: #444; 
+
+    padding: 10px 0; }
+nav a { 
+    color: white; 
+    text-decoration: none; padding: 0 15px;
+    
+ }
+    
+.container { 
+    max-width: 1200px; 
+    margin: auto; }
+.product-grid { 
+    display: flex; 
+    flex-wrap: wrap; }
+.product { 
+    border: 1px solid #ddd; 
+    margin: 10px; 
+    padding: 10px; 
+    width: calc(33.333% - 20px); }
+.product img {
+     max-width: 100%; }
+.logoHome{
+    text-align: center;
+
+}
+.container-items{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 20px;
+    
+    
+}
+
+.item{
+    border-radius: 10ox;
+    
+}
+.item:hover{
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.20);
+
+
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;   
+    transition: all .5s;   
+    
+}
+.item figure{
+    overflow: hidden;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+}
+
+.seccion{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 20px;
+   
+
+}
+.actualizacion{
+    font-family: Arial, sans-serif;
+}
+.actualizar{
+    
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  
